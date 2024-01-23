@@ -1,0 +1,51 @@
+@import url(../../Main.css);
+
+.title {
+    margin-left: 8px;
+    padding: 16px 0;
+    max-width: 100%;
+    color: var(--theme);
+}
+.calc {
+    display: grid;
+    align-items: center;
+    gap: 8px;
+    margin-top: 4px;
+    color: var(--text);
+}
+
+.input-box label {
+    font-size: 1.1rem;
+    font-weight: 500px;
+    color: var(--text);
+    margin-left: 8px;
+}
+
+.input-field {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--dark2);
+    margin: 8px;
+    padding: 0.5rem;
+    border-radius:3px;
+    margin-top: 2px;
+}
+
+.input-field input {
+    background-color: transparent;
+    border: none;
+    width: 100%;
+    font-size: 1.3rem;
+    color: var(--text);
+    margin-left: 8px;
+}
+
+.input-field input::-webkit-outer-spin-button,
+.input-field input::-webkit-inner-spin-button{
+    appearance: none;
+}
+
+.input-field input:focus {
+    outline: none;
+}
