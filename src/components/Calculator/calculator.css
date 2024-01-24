@@ -10,7 +10,6 @@
     display: grid;
     align-items: center;
     gap: 8px;
-    margin-top: 4px;
     color: var(--text);
 }
 
@@ -48,4 +47,31 @@
 
 .input-field input:focus {
     outline: none;
+}
+.resultado{
+    color: var(--text);
+    width: 100%;
+    border-bottom: 1px solid var(--dark2);
+}
+#imc{
+    color: var(--theme);
+    text-align: center;
+    font-size: 32px;
+}
+
+.resultado p{
+    margin-left: 8px;
+}
+
+#descricao{
+    text-align: center;
+    margin-left: 0;
+    color: var(--theme);
+}
+
+.alerta {
+    margin:0px  8px;
+    margin-top: 4px;
+    color: var(--alert);
+    text-align: center;
 }
