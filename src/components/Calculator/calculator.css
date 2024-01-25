@@ -61,6 +61,12 @@
     font-size: 32px;
 }
 
+#tabela {
+    display: flex;
+    justify-content: center;
+    color: var(--theme);
+}
+
 #imcVazio {
     display: flex;
     justify-content: center;
@@ -82,7 +88,7 @@
 .alerta {
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 8px;
     margin:0px  8px;
     margin-top: 4px;
     color: var(--alert);
@@ -91,8 +97,18 @@
 
 .alerta a{
     transition: 0.1s;
+    color: var(--alert);
 }
 
 .alerta a:hover{
-    opacity: .9;
+    opacity: .7;
 }
+
+@media(max-width:479px) {
+    .title {
+        font-size: 24px;
+        padding: 8px 0;
+        color: var(--theme);
+    }
+}
+
