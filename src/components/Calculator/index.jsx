@@ -16,8 +16,8 @@ const Calculator = () => {
             return <>
                 <div className="alerta">
                     <i className="fa-solid fa-triangle-exclamation"></i>
-                    <p>Sua SAÚDE precisa de maior assitência, faça uma avaliação fisíca presencial agora. Clique no link.</p>
-                    <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i> Mais informações</a>
+                    <p>Tenha uma avaliação completado seu Físico agora mesmo. Clique no link.</p>
+                    <a target='blank' href="http://wa.me/5577998276235"><i class="fa-solid fa-arrow-up-right-from-square"></i> Mais informações</a>
                 </div>
             </>
         } 
